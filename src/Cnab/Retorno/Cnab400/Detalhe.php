@@ -2,7 +2,7 @@
 
 namespace Cnab\Retorno\Cnab400;
 
-class Detalhe extends \Cnab\Format\Linha
+class Detalhe extends \Cnab\Format\Linha implements \Cnab\Retorno\IDetalhe
 {
     public $_codigo_banco;
 
